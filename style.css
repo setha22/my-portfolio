@@ -1,0 +1,333 @@
+* {
+    background-color: #192C44;  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* box-sizing: border-box; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+ 
+h2{
+    font-family: Playfair Display;
+    color:#E6D7BC;
+}
+ 
+p{
+    font-family: Poppins;
+    color:#E6D7BC;
+}
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #192C44; /* Main background */
+}
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #192C44; /* Main background */
+    padding: 15px;
+    width: 100%;
+    transition: all ease 0.50s;
+    box-shadow: 0 0 10px rgb(0, 0, 0.1);
+}
+.menu {
+    background-color: #192C44; /* Main background */
+}
+.navbar a {
+    text-decoration: none;
+    color: #E6D7BC; /* New Pale Pink for text */
+    background-color: #192C44; /* Main background */
+}
+.navbar a:hover, .navbar a:active {
+    color:#E6D7BC;  
+    text-shadow: 0 0 10px #E6D7BC;
+}
+.logo {
+    margin-left: 50px;
+    background-color: #192C44; /* Main background */
+}
+.list {
+    list-style: none;
+    display: flex;
+    gap: 25px; 
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: #192C44; /* Main background */
+    z-index: 1000;
+}
+.list li {
+    background-color: #192C44; /* Main background */
+}
+
+#toggler, .navbar label {
+    display: none;
+    padding-right: 50px;
+    background-color: #192C44; /* Main background */
+}
+.intro {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-between;
+    padding-top: 100px;
+    background-color: #192C44; /* Main background */
+}
+.mytext {
+    width: auto;
+    text-align: center;
+    padding:0 50px 0px;
+    color: #E6D7BC;  
+}
+.intro p {
+    width: 100%;  
+    max-width: 600px;  
+    white-space: nowrap;
+    letter-spacing: 2px;  
+    border-right: 2px solid; 
+    overflow: hidden;
+    font-size: 1.2em;  
+    animation:
+        typing 2s steps(22),  
+        cursor .5s step-end infinite alternate;
+}
+
+
+@keyframes cursor {
+    50%{ border-color: transparent;}
+    
+}
+@keyframes typing{
+    from {width: 0}
+}
+.image {
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #192C44; /* Main background */
+}
+.image img {
+    border-radius: 500px;
+}
+
+i{
+color:#E6D7BC;
+}
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn-link, .btn-link a{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+
+}
+.btn-link a {
+    text-align: center;
+    color: #192C44;  
+    text-decoration: none;
+    width: auto;
+    padding: 10px 10px;
+    border: 2px solid #E6D7BC;  
+    border-radius: 15px;
+    background-color: #E6D7BC ;
+    box-shadow: 0 0 10px rgb(245, 242, 242);
+}
+.btn-link a:hover, .btn-link a:active {
+    background-color: #d9e3ef;  
+    color: #192C44;  
+}
+.social-list{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.footer {
+    display: flex;
+    background-color: #192C44; /* Main background */
+    width: 100%;
+    height: 100px;
+    color: #E6D7BC; /* New Pale Pink text */
+}
+.footer h2, .footer p {
+    background-color: #192C44; /* Main background */
+    color: #E6D7BC; /* New Pale Pink text */
+}
+#aboutme{
+    background-color: black;
+    width: 100%;
+    height: fit-content;
+   
+}
+ .myskills h2{
+    color:#E6D7BC;
+    padding-top: 50px;
+    text-align: center;
+
+ }
+ 
+.skills-group{
+    color:#E6D7BC;
+    width: 100%;
+    height:auto;
+    display:flex;
+    /* flex-direction: wrap; */
+    padding:10px 50px 10px 50px;
+    /* padding: 50px; */
+    gap:20px;
+    border-radius: 1px solid white;
+}
+.skill{
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: solid #E6D7BC 5px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.skill img{
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.mytext-skill {
+    width: auto;
+    text-align: center;
+    padding: 10px;
+    color: #192C44;  
+}
+.mytext-education {
+    display: flex;
+    /* padding:10px 50px 10px 50px; */
+    width: auto;
+    text-align: center;
+    padding:0 50px 0px;
+    color: #192C44;  
+    gap: 10px;
+ 
+    
+}
+.school i , .school p{
+    background-color: #E6D7BC;
+    color: #192C44;
+}
+.school{
+    margin:10px;
+    background-color: #E6D7BC;
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #E6D7BC 1px;
+    border-radius: 1px;
+    padding: 5px;
+    box-shadow: 0 0 10px rgb(245, 242, 242);
+}
+
+.projects {
+    padding-top: 20px;
+    /* display: flex; */
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    padding: 0 50px;
+}
+.carousel-indicators {
+    /* background: rgb(0, 0, 0);  */
+    background: rgba(0, 0, 0, 0.1); 
+}
+.carousel-caption {
+    
+    background: rgba(0, 0, 0, 0.5);  
+    /* width: 100%;  
+    padding: 10px; */
+    text-align: center;
+}
+.carousel-caption h5,
+.carousel-caption p{
+    font-size:x-small;
+    background: rgba(0, 0, 0, 0.0);  
+} 
+.carousel-inner{
+    padding:0px;
+}
+.coursel-item img{
+    margin: 150px; 
+
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    padding-bottom: 20px;
+}
+
+.waviy {
+    position: relative;
+  }
+  .waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    color:#E6D7BC;  
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+  }
+  @keyframes flip {
+    0%,80% {
+      transform: rotateY(360deg) 
+    }
+  }
+
+  .contact p{
+    flex-direction: column;
+  }
+
+@media screen and (max-width: 600px){
+    .menu {
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+    .list {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        border-top: 10px black;
+    }
+    .navbar label {
+        color: #E6D7BC;
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    #toggler:checked ~ .menu {
+        max-height: 100%;
+    }
+    .intro {
+        flex-direction: column;
+    }
+    .skills-group{
+        flex-direction: column;
+    }
+    .mytext-education{
+        flex-direction: column;
+    }
+}
